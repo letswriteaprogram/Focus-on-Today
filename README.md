@@ -22,4 +22,5 @@ Focus on Today is a simple web application designed to help users prioritize the
 1. **Set Tasks**: Enter your three tasks for the day in the designated input fields.
 2. **Track Progress**: As you complete each task, click on the corresponding checkbox or button to mark it as completed.
 3. **Save Progress**: Your tasks and progress will be automatically saved to local storage, allowing you to continue where you left off if you close or refresh the browser.
-<h1 align="center">Thank you to visit us </h1>
+<h1 align="center">Thank you
+</h1>
