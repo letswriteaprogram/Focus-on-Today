@@ -1,5 +1,8 @@
 
 <h1>Focus on Today</h1>
+Visit Website :(https://focusontodaygoals.netlify.app/)
+
+
 
 ## Overview
 Focus on Today is a simple web application designed to help users prioritize their tasks and achieve them efficiently. The app allows users to set three tasks for the day and helps them track their progress. One of the key features of the app is its implementation of local storage, ensuring that users can save their progress even if they close or refresh the browser.
