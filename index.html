@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Focus on today</title>
+    <title>Focus on Today</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
 </head>
+
 <body>
-    
+    <main class="container">
+        <h1 class="title">Focus on <span>Today</span></h1>
+        <div class="app-container">
+            <div class="subtitle">
+                <h2>Today</h2>
+                <div class="sun-img">
+                    <img src="Assets/sun.svg" alt="sun">
+                    <img src="Assets/sun-smile.svg" alt="sun-smile-eyes">
+                </div>
+            </div>
+            <p class="progress-bar-lable">Raise the bar by completing your goals!</p>
+            <div class="progress-bar">
+                <div class="progress-bar-value">
+                    <p> </p>
+                </div>
+            </div>
+            <p class="error-lable">Please set all the 3 goals!</p>
+            <div class="goals-container">
+                <div id="first" class="goal-container">
+                    <div class="custom-checkbox">
+                        <img src="Assets/checked.svg" alt="" srcset="">
+                    </div>
+                    <input class="goal-input" type="text" placeholder="Add new goal...">
+                </div>
+                <div id="second" class="goal-container">
+                    <div class="custom-checkbox">
+                        <img src="Assets/checked.svg" alt="" srcset="">
+                    </div>
+                    <input class="goal-input" type="text" placeholder="Add new goal...">
+                </div>
+                <div id="third" class="goal-container">
+                    <div class="custom-checkbox">
+                        <img src="Assets/checked.svg" alt="" srcset="">
+                    </div>
+                    <input class="goal-input" type="text" placeholder="Add new goal...">
+                </div>
+            </div>
+            <p class="quote">“Move one step ahead, today!”</p>
+            <p class="made-with">Made with ❤️ by Shubham Patidar</p>
+        </div>
+    </main>
 </body>
+
 </html>
